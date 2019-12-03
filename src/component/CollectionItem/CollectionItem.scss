@@ -1,0 +1,25 @@
+.CollectionItem{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    width: 22%;
+
+    .Image{
+        height: 95%;
+        width: 100%;
+        margin-bottom: 5px;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .CollectionFooter{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+}

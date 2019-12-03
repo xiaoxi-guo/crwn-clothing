@@ -1,0 +1,12 @@
+.CollectionPreview{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 50px;
+
+    .Preview{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
