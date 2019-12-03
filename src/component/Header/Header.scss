@@ -1,0 +1,26 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+
+    .LogoContainer{
+        padding: 25px;
+    }
+
+    .OptionContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        margin-right: 15px;
+
+        .Option{
+            padding: 10px 15px;
+        }
+    }
+}
